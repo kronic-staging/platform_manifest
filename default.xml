@@ -356,7 +356,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="mm6.0" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="mm6.0" />
+  <project path="packages/apps/CustomWallpapers" name="platform_packages_apps_CustomWallpapers" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="aosip" revision="mm6.0" />
