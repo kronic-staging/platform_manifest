@@ -482,5 +482,6 @@
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="aosip" revision="mm6.0" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="aosip" revision="mm6.0" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="aosip" revision="mm6.0" />
+  <project path="kernel/huawei/angler" name="f100cleveland/saberCore64"  remote="github" revision="saberTest" />
 
 </manifest>
