@@ -486,7 +486,7 @@
   <project path="vendor/lge" name="platform_vendor_lge" remote="aosip" revision="mm6.0" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="aosip" revision="mm6.0" />
   <project path="kernel/huawei/angler" name="f100cleveland/saberCore64"  remote="github" revision="saberTest" />
-  <project path="kernel/moto/shamu" name="f100cleveland/saberCore"  remote="github" revision="saberCore-uber" />
+  <project path="kernel/moto/shamu" name="hellsgod/hells-Core-N6"  remote="github" revision="marshmallow-cfs-permissive" />
 
 <!-- Uber Toolchain  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
