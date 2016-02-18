@@ -485,7 +485,7 @@
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="aosip" revision="mm6.0" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="aosip" revision="mm6.0" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="aosip" revision="mm6.0" />
-  <project path="kernel/huawei/angler" name="f100cleveland/saberCore64"  remote="github" revision="saberTest" />
+  <project path="kernel/huawei/angler" name="f100cleveland/saberCore64"  remote="github" revision="saberTest-permissive" />
   <project path="kernel/moto/shamu" name="hellsgod/hells-Core-N6"  remote="github" revision="marshmallow-cfs-permissive" />
 
 <!-- Uber Toolchain  -->
