@@ -283,7 +283,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
@@ -352,7 +351,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
@@ -380,15 +378,12 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
@@ -458,7 +453,7 @@
 <!-- AOSiP -->
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="aosip" revision="mm6.0" />
 <!--  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /> -->
-  <project path="device/lge/bullhead" name="platform_device_lge_bullhead" remote="aosip" revision="mm" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="aosip" revision="mm" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="aosip" revision="mm6.0" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
 <!--  <project path="device/lge/mako" name="platform_device_lge_mako" remote="aosip" revision="mm6.0" /> -->
@@ -469,22 +464,27 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="mm6.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="mm6.0" />
   <project path="kernel/huawei/angler" name="saberCore/saberCore64"  remote="github" revision="saberTest-p-uber" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/CustomWallpapers" name="platform_packages_apps_CustomWallpapers" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" revision="mm6.0" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosip" revision="mm6.0" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="mm6.0" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="aosip" revision="mm6.0"/>
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="mm6.0" />
-  <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0"/>
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
+  <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="mm6.0" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="mm6.0" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="mm6.0" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="mm6.0" />
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="aosip" revision="mm6.0" />
