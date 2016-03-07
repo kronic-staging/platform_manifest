@@ -453,7 +453,7 @@
 <!-- AOSiP -->
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="aosip" revision="mm6.0" />
 <!--  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /> -->
-  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="aosip" revision="mm" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="aosip" revision="mm6.0" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="aosip" revision="mm6.0" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
 <!--  <project path="device/lge/mako" name="platform_device_lge_mako" remote="aosip" revision="mm6.0" /> -->
@@ -466,6 +466,7 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="mm6.0" />
   <project path="kernel/huawei/angler" name="saberCore/saberCore64"  remote="github" revision="saberTest-p-uber" />
+  <project path="kernel/lge/bullhead" name="akhilnarang/ThugLife_bullhead" remote="github" revision="master" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="mm6.0" />
