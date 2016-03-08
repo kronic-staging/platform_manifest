@@ -15,7 +15,8 @@
            review="android-review.googlesource.com" />
   <default revision="refs/tags/android-6.0.1_r17"
            remote="aosp"
-           sync-j="8" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="build" name="platform_build" remote="aosip" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
