@@ -487,6 +487,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
+  <project path="packages/services/OmniJaws" name="alpha_packages_services_OmniJaws" remote="alpha" revision="android-6.0.1" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="mm6.0" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="mm6.0" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="mm6.0" />
