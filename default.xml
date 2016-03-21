@@ -461,6 +461,7 @@
 <!--  <project path="kernel/lge/mako" name="platform_kernel_lge_mako" remote="aosip" revision="mm6.0" /> -->
   <project path="device/moto/shamu" name="platform_device_moto_shamu" remote="aosip" revision="mm6.0" />
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="mm6.0" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="aosip" revision="mm6.0" />
   <project path="external/google" name="platform_external_google" remote="aosip" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="mm6.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="mm6.0" />
@@ -474,6 +475,7 @@
   <project path="packages/apps/CustomWallpapers" name="platform_packages_apps_CustomWallpapers" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="mm6.0" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="mm6.0" />
