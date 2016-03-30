@@ -450,8 +450,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-
 <!-- AOSiP -->
+  <project path="device/asus/flo" name="platform_device_asus_flo" remote="aosip" revision="mm6.0" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="aosip" revision="mm6.0" />
 <!--  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /> -->
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="aosip" revision="mm6.0" />
@@ -488,10 +489,12 @@
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosip" revision="android-6.0.1" />
+  <project path="packages/services/OmniStyle" name="platform_packages_services_OmniStyle" remote="aosip" revision="android-6.0" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="mm6.0" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="mm6.0" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="mm6.0" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="mm6.0" />
+  <project path="vendor/asus" name="platform_vendor_asus" remote="aosip" revision="mm6.0" />
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="aosip" revision="mm6.0" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="aosip" revision="mm6.0" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="aosip" revision="mm6.0" />
