@@ -468,7 +468,7 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="mm6.0" />
   <project path="kernel/lge/bullhead" name="akhilnarang/ThugLife_bullhead" remote="github" revision="master" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="aosip" revision="mm6.0"/>
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="mm6.0" />
@@ -480,7 +480,7 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="mm6.0" />
-  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="aosip" revision="android-6.0" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="mm6.0" />
@@ -488,7 +488,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
-  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosip" revision="android-6.0.1" />
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosip" revision="mm6.0" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" revision="mm6.0" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="mm6.0" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="mm6.0" />
