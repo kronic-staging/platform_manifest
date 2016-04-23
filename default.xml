@@ -340,7 +340,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
@@ -469,6 +468,7 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="mm6.0" />
   <project path="kernel/lge/bullhead" name="akhilnarang/ThugLife_bullhead" remote="github" revision="master" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="aosip" revision="mm6.0"/>
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="mm6.0" />
