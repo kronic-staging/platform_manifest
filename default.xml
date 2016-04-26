@@ -374,7 +374,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -486,6 +485,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="mm6.0" />
   <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="aosip" revision="mm6.0"/>
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="mm6.0" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosip" revision="mm6.0" />
