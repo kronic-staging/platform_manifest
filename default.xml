@@ -465,7 +465,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosip" revision="mm6.0" />
-  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="github" revision="maul" />
+  <project path="kernel/huawei/angler" name="Dabug123/owlCore64" remote="github" revision="saberTest-p-uber" />
   <project path="kernel/lge/bullhead" name="akhilnarang/ThugLife_bullhead" remote="github" revision="master" />
   <project path="kernel/moto/shamu" name="DirtyUnicorns/android_kernel_moto_shamu" remote="github" revision="m" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" revision="mm6.0"/>
