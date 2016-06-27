@@ -256,7 +256,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -372,7 +371,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -450,6 +448,7 @@
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="mm6.0" />
   <project path="external/DUtils" name="android_external_DUtils" remote="aosip" revision="mm6.0" />
   <project path="external/google" name="platform_external_google" remote="aosip" revision="mm6.0" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="mm6.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="mm6.0" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="aosip" revision="mm6.0" />
@@ -477,6 +476,7 @@
   <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="aosip" revision="mm6.0"/>
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" revision="mm6.0" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/providers/ThemesProvider" name="platform_packages_providers_ThemesProvider" remote="aosip" revision="mm6.0" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosip" revision="mm6.0" />
