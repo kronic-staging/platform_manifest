@@ -308,7 +308,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -460,7 +459,6 @@
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
@@ -528,7 +526,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="AOSiP-Devices/platform_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n" />
-  <!--<project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n" />-->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n" />
 
