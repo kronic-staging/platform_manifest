@@ -59,7 +59,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
+  <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="aosip-devices"/>
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
   <project path="device/sample" name="device/sample" groups="pdk" />
