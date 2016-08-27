@@ -487,7 +487,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -528,6 +527,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n" />
+  <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n" />
 
 </manifest>
