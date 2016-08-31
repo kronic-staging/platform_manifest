@@ -5,7 +5,7 @@ Then
 ```
 mkdir aosip
 cd aosip
-repo init -u https://github.com/AOSIP/platform_manifest.git -b n
+repo init -u https://github.com/AOSIP/platform_manifest.git -b n-oms
 repo sync
 ```
 To build
