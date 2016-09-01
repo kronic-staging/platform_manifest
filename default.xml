@@ -516,11 +516,11 @@
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="aosip-devices" revision="n" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" remote="aosip-devices" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
-  <project path="frameworks/native" name="platform/frameworks/native" remote="aosip" revision="n-oms" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="n-oms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n-oms" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" remote="aosip" revision="n-oms" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n" />
 
 </manifest>
