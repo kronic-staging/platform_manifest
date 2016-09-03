@@ -515,6 +515,7 @@
   </project>
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="aosip-devices" revision="n" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" remote="aosip-devices" revision="n" />
+  <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="n-oms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
