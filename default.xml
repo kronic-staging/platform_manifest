@@ -522,7 +522,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n-oms" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n-oms" />
 
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
