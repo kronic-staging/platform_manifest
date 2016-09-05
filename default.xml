@@ -524,4 +524,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n" />
 
+  <!-- Masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
 </manifest>
