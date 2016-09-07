@@ -507,7 +507,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- AOSiP Repos -->
-  <project path="art" name="platform_art" remote="aosip" />
+  <project path="art" name="platform_art" remote="aosip" revision="n"/>
   <project path="build" name="platform_build" remote="aosip" revision="n-oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
