@@ -388,11 +388,8 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
@@ -404,9 +401,6 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -518,6 +512,12 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="n-oms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="n-oms" /> 
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" revision="n-oms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n-oms" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
