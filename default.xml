@@ -19,7 +19,8 @@
 
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
-           sync-j="16" />
+           sync-j="16"
+           sync-c="true" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
