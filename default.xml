@@ -19,8 +19,8 @@
 
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
-           sync-j="16"
-           sync-c="true" />
+           sync-j="16" 
+           sync-c="true"/>
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -301,7 +301,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -504,6 +503,7 @@
   </project>
   <project path="external/skia" name="platform_external_skia" remote="aosip" revision="n" />
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" revision="n-oms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="n-oms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
@@ -514,6 +514,7 @@
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="aosip" revision="n-oms" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" revision="n-oms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" revision="n" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" revision="n-oms" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
