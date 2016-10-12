@@ -396,7 +396,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -432,7 +431,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -510,6 +508,7 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="aosip" revision="n-oms" /> 
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="aosip" revision="n-oms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" revision="n-oms" />
   <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="aosip" revision="n-oms" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" revision="n-oms" />
@@ -517,6 +516,7 @@
   <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" revision="n" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" revision="n" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" revision="n-oms" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" revision="n" />
   <project path="system/core" name="platform_system_core" remote="aosip" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" revision="n-oms" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n-oms" />
