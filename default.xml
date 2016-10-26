@@ -501,6 +501,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosip" revision="n-oms" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aosip" revision="n" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" revision="n" />
+  <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="n" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="n" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" revision="n" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" revision="n" />
