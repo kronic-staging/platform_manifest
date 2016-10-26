@@ -490,6 +490,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
+  <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" revision="n-oms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
