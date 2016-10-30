@@ -261,7 +261,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -492,6 +491,7 @@
   <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
   <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="n" />
+  <project path="external/skia" name="platform_external_skia" remote="aosip" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" revision="n-oms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" revision="n-oms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" revision="n-oms" />
