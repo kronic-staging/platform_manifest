@@ -11,15 +11,15 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="nougat" />
 
+  <remote  name="aosip"
+	   fetch="https://github.com/AOSIP"
+	   revision="n-caf" />
+
   <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <project path="build" name="platform_build" groups="pdk,tradefed" remote="rro" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="rro" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -28,43 +28,71 @@
   </project>
 
   <!-- AOSP-OMS -->
-
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" groups="pdk" remote="rro" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="rro" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="rro" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="rro" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="rro" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="rro" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="external/fuse" name="platform_external_fuse" remote="rro" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
-  <project path="art" name="platform_art" groups="pdk" remote="rro" />
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="rro" />
-  <project path="manifest" name="manifest" remote="rro" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="system/extras" name="platform_system_extras" remote="rro" />
   <project path="system/media" name="platform_system_media" remote="rro" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="rro" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="rro" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="rro" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="rro" />
 
-<!-- CyanogenMod -->
+   <!-- AOSiP -->
+  <project path="art" name="platform_art" groups="pdk" remote="aosip" />
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="aosip">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="n" />
+  <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
+  <project path="external/skia" name="platform_external_skia" remote="aosip" revision="n" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aosip" revision="n-caf-oms"/>
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aosip" revision="n-caf-oms" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="aosip" revision="n" />
+  <project path="manifest" name="platform_manifest" remote="aosip" revision="n-caf-oms" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosip" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aosip" revision="n-caf-oms" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aosip" revision="n" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" revision="n" />
+  <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" remote="aosip" revision="n" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" revision="n" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" revision="n" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aosip" />
+  <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="aosip" revision="n" />
+  <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip" revision="n" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="aosip" revision="n-oms" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aosip" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" revision="n" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosip" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aosip" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aosip" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="aosip" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aosip" revision="n-caf-oms" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n-oms" />
+
+   <!-- Misc stuff for AOSiP -->
+
+  <!-- Eleven -->
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-14.0" />
+
+  <!--toolchains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DirtyUnicorns/arm-eabi-4.8" remote="github" revision="n" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DirtyUnicorns/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="n" />
+
+   <!-- CyanogenMod -->
 
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8084" />
@@ -396,7 +424,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -448,16 +475,10 @@
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
@@ -509,7 +530,6 @@
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
