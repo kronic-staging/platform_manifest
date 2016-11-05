@@ -15,6 +15,10 @@
 	   fetch="https://github.com/AOSIP"
 	   revision="n-caf" />
 
+  <remote  name="devices"
+	   fetch="https://github.com/AOSIP-Devices"
+	   revision="n" />
+
   <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4"
@@ -58,7 +62,7 @@
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="n" />
   <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" revision="n" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="n" remote="aosip" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="devices" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aosip" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aosip" revision="n-caf-oms"/>
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aosip" revision="n-caf-oms" />
