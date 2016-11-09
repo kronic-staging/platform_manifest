@@ -56,9 +56,7 @@
   <project path="art" name="platform_art" groups="pdk" remote="aosip" />
   <project path="build" name="platform_build" groups="pdk,tradefed" remote="aosip">
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="external/busybox" name="platform_external_busybox" remote="aosip" revision="n" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="aosip" revision="n" />
   <project path="external/google" name="platform_external_google" remote="aosip" revision="n" />
   <project path="external/skia" name="platform_external_skia" remote="aosip" revision="n" />
