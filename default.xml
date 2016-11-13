@@ -4,7 +4,7 @@
   <remote  name="aosip"
            fetch="https://github.com/AOSIP/" />
 
-  <remote  name="aosip-devices"
+  <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices/" />
 
   <remote  name="bb"
