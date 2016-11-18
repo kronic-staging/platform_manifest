@@ -1,21 +1,19 @@
-AOSP+OMS Nougat
-===========
+### AOSiP
 
-To initialize your local repository using the AOSP-OMS trees, use a 
-command like this:
-````bash
-repo init -u git://github.com/AOSP-RRO/manifest.git -b nougat
+Get your build environment setup from https://github.com/akhilnarang/scripts
+Then
 ```
-Then to sync up:
-````bash
+mkdir aosip
+cd aosip
+repo init -u https://github.com/AOSIP/platform_manifest.git -b n-caf-oms
 repo sync
 ```
-Finally to build:
-````bash
-./build.sh device_codename
+To build
 ```
-Example:
-````bash
-./build.sh falcon
-./build.sh titan
-./build.sh osprey
+. build/envsetup.sh
+lunch
+(Choose your device from menu)
+time make -jX kronic
+(X being number of threads your CPU can take)
+```
+Do a ```make clobber``` every once in a while
