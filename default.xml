@@ -520,7 +520,7 @@
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" revision="n-oms" />
 
   <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- Eleven -->
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-14.0" />
