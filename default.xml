@@ -5,6 +5,14 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/cm-14.1" />
 
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/nougat" />
+
+  <remote  name="devices"
+           fetch="https://github.com/AOSiP-Devices"
+           revision="refs/heads/n-mr1" />
+
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr1" />
@@ -21,7 +29,7 @@
 
   <default revision="refs/tags/LA.UM.5.7.r1-08000-8x98.0"
            remote="caf"
-           sync-j="4"
+           sync-j="8"
            sync-c="true"/>
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
@@ -546,7 +554,7 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" />
   <project name="toolchain/binutils" />
 
-  <!-- AOSP-CAF additions -->
+  <!-- AOSiP additions -->
   <include name="manifests/caf.xml"/>
 
 </manifest>
