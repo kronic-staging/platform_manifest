@@ -34,6 +34,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
@@ -156,6 +157,7 @@
   <project name="platform_external_skia" path="external/skia" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
+  <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
@@ -176,6 +178,10 @@
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
+
+  <!-- BEGIN CAF -->
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
+  <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
