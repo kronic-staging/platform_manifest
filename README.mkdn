@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP-CAF trees, use a command like this:
 
-    repo init -u git@github.com:AOSiP/caf_manifest.git -b nougat
+    repo init -u git@github.com:AOSiP/platform_manifest.git -b nougat
 
 Then to sync up:
 
@@ -21,7 +21,7 @@ Building the source
 The source at AOSiP is well configured for building.
 
     $ . build/envsetup.sh
-    $ lunch aosp_device-userdebug
-    $ make -jX otapackage
+    $ lunch aosip_device-userdebug
+    $ make -jX kronic
 
 where X is the number of jobs you would like to allot to the build system.
