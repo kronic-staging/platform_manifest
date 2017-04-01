@@ -99,14 +99,17 @@
   <remove-project name="platform/vendor/qcom/titanium_64"/>
 
   <!-- BEGIN AOSiP -->
+  <project name="platform_bionic" path="bionic" remote="aosip" />
   <project name="platform_build" path="build" remote="aosip" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_external_DUtils" path="external/DUtils" remote="aosip" />
   <project name="platform_external_google" path="external/google" remote="aosip" />
+  <project name="platform_external_skia" path="external/skia" remote="aosip" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosip" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="aosip" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="aosip" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosip" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosip" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="aosip" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosip" />
@@ -142,7 +145,6 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
-  <project name="platform_bionic" path="bionic" remote="aosp-caf" />
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
@@ -158,13 +160,11 @@
   <project name="platform_external_mksh" path="external/mksh" remote="aosp-caf" />
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
-  <project name="platform_external_skia" path="external/skia" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
