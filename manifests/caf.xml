@@ -127,6 +127,7 @@
   <project name="platform_packages_apps_OwlsNest" path="packages/apps/OwlsNest" remote="aosip" />
   <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aosip" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosip" />
+  <project name="platform_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="aosip" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="aosip" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosip" />
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="aosip" />
