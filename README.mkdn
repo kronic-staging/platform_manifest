@@ -15,6 +15,10 @@ Then to sync up:
 
     repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
 
+As the CAF repos aren't ever updated till we update the tag we're tracking, for subsequent syncs simply run
+
+    ./sync.sh
+
 Building the source
 ---------------
 
@@ -25,3 +29,8 @@ The source at AOSiP is well configured for building.
     $ make -jX kronic
 
 where X is the number of jobs you would like to allot to the build system.
+
+Contributing
+------------
+
+Please push any patches to our [Gerrit](http://review.aosiprom.com)
