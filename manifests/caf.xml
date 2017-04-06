@@ -99,6 +99,7 @@
   <remove-project name="platform/vendor/qcom/titanium_64"/>
 
   <!-- BEGIN AOSiP -->
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosip" />
   <project name="platform_bionic" path="bionic" remote="aosip" />
   <project name="platform_build" path="build" remote="aosip" >
   <copyfile src="core/root.mk" dest="Makefile" />
@@ -144,7 +145,6 @@
 
   <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
