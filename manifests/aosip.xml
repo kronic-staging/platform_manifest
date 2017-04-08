@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Begin AOSiP -->
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosip" />
+  <project name="platform_bionic" path="bionic" remote="aosip" />
+  <project name="platform_build" path="build" remote="aosip" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="platform_external_DUtils" path="external/DUtils" remote="aosip" />
+  <project name="platform_external_google" path="external/google" remote="aosip" />
+  <project name="platform_external_skia" path="external/skia" remote="aosip" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="aosip" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="aosip" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="aosip" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosip" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosip" />
+  <project name="platform_frameworks_support" path="frameworks/support" remote="aosip" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosip" />
+  <project name="platform_hardware_qcom_fm" path="hardware/qcom/fm" remote="aosip" />
+  <project name="platform_manifest" path="manifest" remote="aosip" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosip" />
+  <project name="platform_packages_apps_CalendarWidget" path="packages/apps/CalendarWidget" remote="aosip" revision="n7x" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosip" />
+  <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="aosip" />
+  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="aosip" />
+  <project name="platform_packages_apps_LockClock" path="packages/apps/LockClock" remote="aosip" />
+  <project name="platform_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aosip" />
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="aosip" />
+  <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="aosip" />
+  <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="aosip" />
+  <project name="platform_packages_apps_OwlsNest" path="packages/apps/OwlsNest" remote="aosip" />
+  <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aosip" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosip" />
+  <project name="platform_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="aosip" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosip" />
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="aosip" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosip" />
+  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="aosip" />
+  <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="aosip" />
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="aosip" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosip" />
+  <project name="platform_system_core" path="system/core" remote="aosip" />
+  <project name="platform_system_media" path="system/media" remote="aosip" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosip" />
+  <project name="platform_vendor_aosip" path="vendor/aosip" remote="aosip" >
+    <linkfile src="tools/sync.sh" dest="sync.sh" />
+  </project>
+  <!-- End AOSiP -->
+
+</manifest>

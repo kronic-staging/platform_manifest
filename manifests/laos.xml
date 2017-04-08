@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- BEGIN LINEAGE-OS -->
+  <!-- Begin LineageOS -->
+  <project name="android_external_chromium-webview" path="external/chromium-webview" remote="laos" clone-depth="1" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="laos" revision="cm-14.1-caf-8084" />
@@ -34,6 +35,6 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="laos" revision="cm-14.1-caf-8996" />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="laos" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
-  <!-- END LINEAGE-OS -->
+  <!-- End LineageOS -->
   
 </manifest>
