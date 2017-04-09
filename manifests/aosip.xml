@@ -27,6 +27,7 @@
   <project name="platform_packages_apps_LockClock" path="packages/apps/LockClock" remote="aosip" />
   <project name="platform_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aosip" />
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="aosip" />
+  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="aosip" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="aosip" />
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="aosip" />
   <project name="platform_packages_apps_OwlsNest" path="packages/apps/OwlsNest" remote="aosip" />
