@@ -24,7 +24,6 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosip" />
   <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="aosip" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="aosip" />
-  <project name="platform_packages_apps_LockClock" path="packages/apps/LockClock" remote="aosip" />
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="aosip" />
   <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="aosip" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="aosip" />
