@@ -16,11 +16,14 @@
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosip" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosip" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="aosip" />
+  <project name="platform_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="aosip" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosip" />
   <project name="platform_hardware_qcom_fm" path="hardware/qcom/fm" remote="aosip" />
   <project name="platform_manifest" path="manifest" remote="aosip" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosip" />
   <project name="platform_packages_apps_CalendarWidget" path="packages/apps/CalendarWidget" remote="aosip" revision="n7x" />
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="aosip" />
+  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="aosip" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosip" />
   <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="aosip" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="aosip" />
@@ -30,6 +33,7 @@
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="aosip" />
   <project name="platform_packages_apps_OwlsNest" path="packages/apps/OwlsNest" remote="aosip" />
   <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aosip" />
+  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="aosip" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosip" />
   <project name="platform_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="aosip" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosip" />

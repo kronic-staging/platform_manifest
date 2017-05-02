@@ -46,6 +46,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -57,6 +58,8 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/CMFileManager" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -67,6 +70,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
