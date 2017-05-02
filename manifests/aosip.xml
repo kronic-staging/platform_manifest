@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Begin AOSiP -->
+  <project name="device_qcom_common" path="device/qcom/common" remote="aosip" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosip" />
+  <project name="platform_art" path="art" remote="aosip" />
+  <project name="platform_bionic" path="bionic" remote="aosip" />
+  <project name="platform_build_kati" path="build/kati" remote="aosip" />
+  <project name="platform_build" path="build" remote="aosip" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosip" />
+  <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosip" />
+  <project name="platform_external_bash" path="external/bash" remote="aosip" />
+  <project name="platform_external_busybox" path="external/busybox" remote="aosip" />
+  <project name="platform_external_chromium-webview" path="external/chromium-webview" remote="aosip" clone-depth="1" />
+    <project name="platform_external_connectivity" path="external/connectivity" remote="aosip" />
+  <project name="platform_external_DUtils" path="external/DUtils" remote="aosip" />
+  <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="aosip" />
+  <project name="platform_external_exfat" path="external/exfat" remote="aosip" />
+  <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="aosip" />
+  <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="aosip" />
+  <project name="platform_external_fuse" path="external/fuse" remote="aosip" />
+  <project name="platform_external_google" path="external/google" remote="aosip" />
+  <project name="platform_external_jemalloc" path="external/jemalloc" remote="aosip" />
+  <project name="platform_external_libncurses" path="external/libncurses" remote="aosip" />
+  <project name="platform_external_mksh" path="external/mksh" remote="aosip" />
+  <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosip" />
+  <project name="platform_external_okhttp" path="external/okhttp" remote="aosip" />
+  <project name="platform_external_skia" path="external/skia" remote="aosip" />
+  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosip" />
+  <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosip" />
+  <project name="platform_external_toybox" path="external/toybox" remote="aosip" />
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosip" />
+  <project name="platform_external_zlib" path="external/zlib" remote="aosip" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="aosip" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="aosip" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="aosip" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosip" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosip" />
+  <project name="platform_frameworks_support" path="frameworks/support" remote="aosip" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosip" />
+  <project name="platform_hardware_ril" path="hardware/ril" remote="aosip" />
+  <project name="platform_hardware_ril" path="hardware/ril-caf" remote="aosip" revision="n-mr2-caf" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="aosip" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" remote="aosip" revision="n-mr2-caf-8084" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="aosip" revision="n-mr2-caf-8916" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" remote="aosip" revision="n-mr2-caf-8937" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" remote="aosip" revision="n-mr2-caf-8952" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" remote="aosip" revision="n-mr2-caf-8960" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="aosip" revision="n-mr2-caf-8974" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="aosip" revision="n-mr2-caf-8994" />
+  <project name="platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="aosip" revision="n-mr2-caf-8996" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosip" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="aosip" revision="n-mr2-caf" />
+  <project name="platform_hardware_qcom_camera" path="hardware/qcom/camera" remote="aosip" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display" remote="aosip" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" remote="aosip" revision="n-mr2-caf-8084" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="aosip" revision="n-mr2-caf-8916" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" remote="aosip" revision="n-mr2-caf-8937" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" remote="aosip" revision="n-mr2-caf-8952" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" remote="aosip" revision="n-mr2-caf-8960" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="aosip" revision="n-mr2-caf-8974" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" remote="aosip" revision="n-mr2-caf-8994" />
+  <project name="platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="aosip" revision="n-mr2-caf-8996" />
+  <project name="platform_hardware_qcom_fm" path="hardware/qcom/fm" remote="aosip" />
+  <project name="platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="aosip" />
+  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosip" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media" remote="aosip" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" remote="aosip" revision="n-mr2-caf-8084" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="aosip" revision="n-mr2-caf-8916" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" remote="aosip" revision="n-mr2-caf-8937" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" remote="aosip" revision="n-mr2-caf-8952" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" remote="aosip" revision="n-mr2-caf-8960" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="aosip" revision="n-mr2-caf-8974" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" remote="aosip" revision="n-mr2-caf-8994" />
+  <project name="platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="aosip" revision="n-mr2-caf-8996" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr2-caf" remote="aosip" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosip" />
+  <project name="platform_manifest" path="manifest" remote="aosip" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosip" />
+  <project name="platform_packages_apps_CalendarWidget" path="packages/apps/CalendarWidget" remote="aosip" revision="n7x" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosip" />
+  <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="aosip" />
+  <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosip" />
+  <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="aosip" />
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="aosip" />
+  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="aosip" />
+  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosip" />
+  <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="aosip" />
+  <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="aosip" />
+  <project name="platform_packages_apps_OwlsNest" path="packages/apps/OwlsNest" remote="aosip" />
+  <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aosip" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosip" />
+  <project name="platform_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="aosip" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosip" />
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="aosip" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosip" />
+  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="aosip" />
+  <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="aosip" />
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="aosip" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosip" />
+  <project name="platform_packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="aosip" />
+  <project name="platform_system_bt" path="system/bt" remote="aosip" />
+  <project name="platform_system_core" path="system/core" remote="aosip" />
+  <project name="platform_system_extras" path="system/extras" remote="aosip" />
+  <project name="platform_system_media" path="system/media" remote="aosip" />
+  <project name="platform_system_netd" path="system/netd" remote="aosip" />
+  <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosip" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosip" />
+  <project name="platform_system_vold" path="system/vold" remote="aosip" />
+  <project name="platform_vendor_aosip" path="vendor/aosip" remote="aosip" >
+    <linkfile src="tools/sync.sh" dest="sync.sh" />
+  </project>
+  <project name="platform_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="aosip" />
+  <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosip" />
+  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosip" />
+
+</manifest>

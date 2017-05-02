@@ -1,0 +1,36 @@
+AOSiP
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSiP trees, use a command like this:
+
+    repo init -u git@github.com:AOSiP/platform_manifest.git -b n-mr2
+
+Then to sync up:
+
+    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+As the CAF repos aren't ever updated till we update the tag we're tracking, for subsequent syncs simply run
+
+    ./sync.sh
+
+Building the source
+---------------
+
+The source at AOSiP is well configured for building.
+
+    $ . build/envsetup.sh
+    $ lunch aosip_device-userdebug
+    $ make -jX kronic
+
+where X is the number of jobs you would like to allot to the build system.
+
+Contributing
+------------
+
+Please push any patches to our [Gerrit](http://review.aosiprom.com)
